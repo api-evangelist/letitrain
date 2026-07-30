@@ -1,0 +1,57 @@
+generated: '2026-07-19'
+method: probed
+source: live HTTP probes of https://letitrain.com
+summary: >-
+  No well-known documents are published. The letitrain.com host serves no content
+  of its own: every probed path returns 302 to https://www.cendyn.com/ (a blanket
+  domain-level redirect to the acquiring company), and the TLS certificate for
+  *.letitrain.com expired 2022-12-06. No security.txt, no OpenID/OAuth discovery,
+  no api-catalog, no ai-plugin.json, no llms.txt, no OpenAPI at a conventional path.
+host: letitrain.com
+redirects_to: https://www.cendyn.com/
+tls_certificate_expired: '2022-12-06'
+probes:
+- path: /.well-known/security.txt
+  status: 302
+  location: https://www.cendyn.com/
+  file: null
+- path: /.well-known/openid-configuration
+  status: 302
+  location: https://www.cendyn.com/
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 302
+  location: https://www.cendyn.com/
+  file: null
+- path: /.well-known/api-catalog
+  status: 302
+  location: https://www.cendyn.com/
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 302
+  location: https://www.cendyn.com/
+  file: null
+- path: /llms.txt
+  status: 302
+  location: https://www.cendyn.com/
+  file: null
+- path: /openapi.json
+  status: 302
+  location: https://www.cendyn.com/
+  file: null
+- path: /swagger.json
+  status: 302
+  location: https://www.cendyn.com/
+  file: null
+successor_probes:
+- url: https://developer.cendyn.com/
+  status: 302
+  location: http://maintenance.cdcservices.com/Cendyn.com/index.html
+  note: successor developer subdomain resolves to a maintenance placeholder
+- url: https://docs.cendyn.com/
+  status: 302
+  location: http://maintenance.cdcservices.com/cendyn/
+  note: successor docs subdomain resolves to a maintenance placeholder
+- url: https://api.cendyn.com/
+  status: 000
+  note: no connection

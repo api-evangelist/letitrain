@@ -1,0 +1,59 @@
+generated: '2026-07-19'
+method: probed
+source: >-
+  Live DNS/TLS/HTTP probes of letitrain.com plus the Internet Archive capture
+  http://web.archive.org/web/20191214093714/https://letitrain.com/
+status: defunct
+summary: >-
+  letitrain.com was the corporate domain of The Rainmaker Group Ventures, LLC, a
+  hospitality revenue- and profit-optimization software vendor. The brand has been
+  retired: the domain now serves a blanket 302 redirect to https://www.cendyn.com/,
+  the acquiring company, and no Rainmaker-branded product surface remains online.
+company:
+  legal_name: The Rainmaker Group Ventures, LLC
+  brand: Rainmaker
+  headquarters: 4550 North Point Parkway, Suite 400, Alpharetta, GA 30022 (Atlanta)
+  offices:
+  - Atlanta, GA (HQ)
+  - Las Vegas, NV
+  - Singapore
+  - Dubai, UAE
+  products:
+  - name: guestrev
+    description: transient pricing / revenue management
+  - name: grouprev
+    description: group pricing and evaluation
+  - name: revintel
+    description: business intelligence and reporting
+  evidence: http://web.archive.org/web/20191214093714/https://letitrain.com/
+successor:
+  name: Cendyn
+  url: https://www.cendyn.com/
+  evidence: 302 redirect from every probed path on letitrain.com
+timeline:
+- date: '2019-12-14'
+  event: >-
+    Last verified live capture of the Rainmaker product site at letitrain.com
+    (Internet Archive), marketing guestrev / grouprev / revintel.
+  source: http://web.archive.org/web/20191214093714/https://letitrain.com/
+- date: '2022-12-06'
+  event: TLS certificate for *.letitrain.com (GoDaddy, issued 2021-11-04) expired and was not renewed.
+  source: live TLS probe of letitrain.com:443
+- date: '2026-07-19'
+  event: >-
+    Probed: letitrain.com resolves (198.91.42.43, Cloudflare NS) and 302s every path
+    to https://www.cendyn.com/. HTTPS is unusable due to the expired certificate.
+  source: live HTTP/TLS probe
+api_surface:
+  present: false
+  evidence: >-
+    An Internet Archive CDX enumeration of 3,520 distinct captured letitrain.com URLs
+    returned no developer portal, API reference, OpenAPI/Swagger document, or SDK path.
+    The site was a marketing and resource-center property only. The successor's
+    developer.cendyn.com and docs.cendyn.com subdomains both redirect to a maintenance
+    placeholder.
+versioning_policy: null
+deprecation_policy: null
+sunset_headers: null
+sla: null
+status_page: null
