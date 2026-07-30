@@ -1,21 +1,53 @@
 aid: letitrain
-name: Letitrain
-description: 'Letitrain is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/letitrain.png
+name: The Rainmaker Group Ventures (letitrain.com)
+description: >-
+  letitrain.com was the corporate domain of The Rainmaker Group Ventures, LLC, an
+  Atlanta-based hospitality revenue and profit optimization software vendor serving
+  hotels, resorts and casinos. Rainmaker sold an "intelligent profit platform" built
+  around three products: guestrev for transient pricing and science-based revenue
+  management, grouprev for group pricing and evaluation, and revintel for business
+  intelligence and reporting, with a demand forecast marketed to operators including
+  Caesars Entertainment, Atlantis Casino Resort Spa and Two Roads Hospitality. The
+  company was backed by Norwest Venture Partners and ran offices in Atlanta, Las Vegas,
+  Singapore and Dubai. The brand is retired: letitrain.com now serves a blanket redirect
+  to Cendyn, the acquiring company, its TLS certificate expired in December 2022, and no
+  Rainmaker developer portal, API reference or machine-readable specification was ever
+  published or archived. This profile is retained as a historical, defunct-provider
+  record with no active API surface.
 url: https://raw.githubusercontent.com/api-evangelist/letitrain/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: historical
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-successor: cendyn
+x-successor-url: https://www.cendyn.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Hospitality
+- Revenue Management
+- Hotels
+- Casinos
+- Business Intelligence
+- Pricing
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +57,12 @@ maintainers:
 common:
 - type: Website
   url: https://letitrain.com
+- type: DomainSecurity
+  url: security/letitrain-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/letitrain-lifecycle.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
