@@ -64,22 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: defunct — brand retired, no active API surface.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-letitrain.com was the corporate domain of The Rainmaker Group Ventures, LLC, an
-Atlanta-based hospitality revenue and profit optimization software vendor serving hotels,
-resorts and casinos. Its "intelligent profit platform" comprised **guestrev** (transient
-pricing / revenue management), **grouprev** (group pricing) and **revintel** (business
-intelligence), with offices in Atlanta, Las Vegas, Singapore and Dubai.
+letitrain.com was the corporate domain of The Rainmaker Group Ventures, LLC, an Atlanta-based hospitality revenue and profit optimization software vendor serving hotels, resorts and casinos. Rainmaker sold an "intelligent profit platform" built around three products: guestrev for transient pricing and science-based revenue management, grouprev for group pricing and evaluation, and revintel for business intelligence and reporting, with a demand forecast marketed to operators including Caesars Entertainment, Atlantis Casino Resort Spa and Two Roads Hospitality. The company was backed by Norwest Venture Partners and ran offices in Atlanta, Las Vegas, Singapore and Dubai. The brand is retired: letitrain.com now serves a blanket redirect to Cendyn, the acquiring company, its TLS certificate expired in December 2022, and no Rainmaker developer portal, API reference or machine-readable specification was ever published or archived. This profile is retained as a historical, defunct-provider record with no active API surface.
 
-The domain now serves a blanket 302 redirect to [Cendyn](https://www.cendyn.com/), the
-acquiring company, and its TLS certificate expired 2022-12-06. An Internet Archive
-enumeration of 3,520 captured letitrain.com URLs found no developer portal, API
-reference, or machine-readable specification — this provider never published an API.
+**Areas:** Company · Hospitality · Revenue Management · Hotels · Casinos · Business Intelligence · Pricing · Defunct
 
-This repo is retained as a historical record. See
-[`lifecycle/letitrain-lifecycle.yml`](lifecycle/letitrain-lifecycle.yml) for the full
-evidence trail, and [`well-known/letitrain-well-known.yml`](well-known/letitrain-well-known.yml)
-for the probe log.
+## The Rainmaker Group Ventures (letitrain.com) on APIs.io (historical record)
 
-Backed by: norwest-venture-partners
+Everything profiled for The Rainmaker Group Ventures (letitrain.com) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/letitrain/](https://apis.io/providers/letitrain/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Letitrain Domain Security](https://apis.io/security/letitrain/letitrain-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://letitrain.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for The Rainmaker Group Ventures (letitrain.com): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/letitrain/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
